@@ -12,7 +12,7 @@ class WebController extends Controller
     public function home()
     {
         return view('website.home', [
-            'newsletters' => Newsletter::take(3)->orderBy('created_at', 'desc')->get(),
+            'newsletters' => Newsletter::take(4)->orderBy('created_at', 'desc')->get(),
         ]);
     }
 
