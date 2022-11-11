@@ -29,9 +29,6 @@ class Create extends Component
         try {
             $location = $this->file->store('documents');
             $imagick = new Imagick();
-            $imagick->setImageBackgroundColor('#ffffff');
-            $imagick->setImageAlphaChannel(Imagick::ALPHACHANNEL_REMOVE);
-            $imagick = $imagick->mergeImageLayers(Imagick::LAYERMETHOD_FLATTEN);
             $imagick->readImage(Storage::path($location . '[0]'));
             $tn = Str::uuid();
             $imagick->writeImages(Storage::path('documents/' . $tn. '.jpg'), true);
