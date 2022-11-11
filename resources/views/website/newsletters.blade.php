@@ -7,11 +7,11 @@
 
             <main class="my-12 grid grid-cols-4 gap-8">
                 @forelse ($newsletters as $document)
-                <a href="{{ $document->url }}" class="col-span-2 lg:col-span-1 group" target="_blank">
-                    <div class="rounded-lg h-72 md:h-80 overflow-hidden">
+                <a href="{{ $document->url }}" class="col-span-2 lg:col-span-1 text-center group" target="_blank">
+                    <div class="rounded-lg h-72 md:h-80 overflow-hidden shadow">
                         <img src="{{ asset($document->thumbnail) }}" alt="{{ $document->name }}" class="h-full w-full object-cover object-center group-hover:opacity-75">
                     </div>
-                    <h3 class="mt-4 text-sm text-gray-700">{{ $document->name }}</h3>
+                    <h3 class="mt-2 text-sm text-gray-700">{{ $document->name }}</h3>
                 </a>
                 @empty
                 @endforelse

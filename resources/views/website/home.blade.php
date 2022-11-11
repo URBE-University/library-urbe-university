@@ -57,13 +57,13 @@
             <section class="my-12 md:my-24">
                 <h3 class="text-3xl font-extrabold text-[#073260]">Grab a copy of our newsletter</h3>
 
-                <div class="mt-8 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+                <div class="mt-8 grid grid-cols-4 gap-8">
                     @forelse ($newsletters as $document)
-                        <a href="{{ $document->url }}" class="group" target="_blank">
-                            <div class="aspect-w-1 aspect-y-2 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
+                        <a href="{{ $document->url }}" class="col-span-2 lg:col-span-1 text-center group" target="_blank">
+                            <div class="rounded-lg h-72 md:h-80 overflow-hidden shadow">
                                 <img src="{{ asset($document->thumbnail) }}" alt="{{ $document->name }}" class="h-full w-full object-cover object-center group-hover:opacity-75">
                             </div>
-                            <h3 class="mt-4 text-sm text-gray-700">{{ $document->name }}</h3>
+                            <h3 class="mt-2 text-sm text-gray-700">{{ $document->name }}</h3>
                         </a>
                     @empty
                     @endforelse
