@@ -15,7 +15,7 @@
                 </form>
             </div>
             <div class="col-span-2 md:col-span-1">
-                <img src="https://source.unsplash.com/featured/?book" alt="" class="w-full aspect-1 object-cover object-center rounded-xl md:rounded-full shadow-xl">
+                <img src="https://source.unsplash.com/featured/?book" alt="" class="w-full aspect-video md:aspect-square object-cover object-center rounded-xl md:rounded-full shadow-xl">
             </div>
         </header>
 
