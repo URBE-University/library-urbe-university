@@ -40,4 +40,9 @@ class WebController extends Controller
     {
         return view('website.about');
     }
+    
+    public function inClassResources()
+    {
+    	return view('website.in-class-resources');
+    }
 }

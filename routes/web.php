@@ -19,6 +19,7 @@ Route::get('/databases', [WebController::class, 'databases'])->name('databases')
 Route::get('/training-and-docs', [WebController::class, 'docs'])->name('docs');
 Route::get('/newsletter', [WebController::class, 'newsletters'])->name('newsletters');
 Route::get('/about', [WebController::class, 'about'])->name('about');
+Route::get('in-class-resources', [WebController::class, 'inClassResources'])->name('in-class-resources');
 
 
 Route::middleware([
