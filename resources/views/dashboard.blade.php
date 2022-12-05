@@ -51,8 +51,8 @@
                                 <td class="py-4 px-6">
                                     <span class="text-xs font-bold tracking-wider px-3 py-0.5 bg-yellow-100 border border-yellow-300 text-yellow-600 rounded-full">NEWSLETTER</span>
                                 </td>
-                                <td class="py-4 px-6 text-right">
-                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                                <td class="py-4 px-6 flex items-center space-x-3 justify-end">
+                                    @livewire('newsletter.delete', ['newsletter' => $newsletter], key('delete-newsletter-'.$newsletter->id))
                                 </td>
                             </tr>
                         @empty
@@ -69,8 +69,8 @@
                                 <td class="py-4 px-6">
                                     <span class="text-xs font-bold tracking-wider px-3 py-0.5 bg-green-100 border border-green-300 text-green-600 rounded-full">DOCUMENT</span>
                                 </td>
-                                <td class="py-4 px-6 text-right">
-                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                                <td class="py-4 px-6 flex items-center space-x-3 justify-end">
+                                    @livewire('document.delete', ['document' => $document], key('delete-document-'.$document->id))
                                 </td>
                             </tr>
                         @empty
@@ -87,8 +87,8 @@
                                 <td class="py-4 px-6">
                                     <span class="text-xs font-bold tracking-wider px-3 py-0.5 bg-blue-100 border border-blue-300 text-blue-600 rounded-full">URL</span>
                                 </td>
-                                <td class="py-4 px-6 text-right">
-                                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                                <td class="py-4 px-6 flex items-center space-x-3 justify-end">
+                                    @livewire('url.delete', ['url' => $url], key('delete-url-'.$url->id))
                                 </td>
                             </tr>
                         @empty
