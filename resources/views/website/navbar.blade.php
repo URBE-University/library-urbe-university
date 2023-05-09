@@ -8,7 +8,7 @@
             </div>
             <div class="hidden md:flex items-center">
                 <a target="_blank" href="http://catalog.urbe.university/" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Catalog</a>
-                <a target="_blank" href="http://dspace.urbe.university:4000" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Repository</a>
+                <a target="_blank" href="https://omeka.library.urbe.university" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Repository</a>
                 <a href="{{ route('databases') }}" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Databases</a>
                 <a href="{{ route('docs') }}" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Training &amp; Docs</a>
                 <a href="{{ route('newsletters') }}" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">News</a>
@@ -30,7 +30,7 @@
                         <div class="rounded-md ring-1 ring-black ring-opacity-5 py-1 bg-white">
                             <div class=" w-60">
                                 <a class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition" href="http://catalog.urbe.university/">Library Catalog</a>
-                                <a class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition" href="http://dspace.urbe.university:4000">Repository</a>
+                                <a class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition" href="https://omeka.library.urbe.university">Repository</a>
                                 <a class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition" href="{{ route('databases') }}">Databases</a>
                                 <a class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition" href="{{ route('docs') }}">Training &amp; Docs</a>
                                 <a class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 transition" href="{{ route('newsletters') }}">News</a>
