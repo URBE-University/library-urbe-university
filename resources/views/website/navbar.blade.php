@@ -7,7 +7,7 @@
                 </a>
             </div>
             <div class="hidden md:flex items-center">
-                <a target="_blank" href="http://catalog.urbe.university/" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Catalog</a>
+                <a target="_blank" href="http://koha.library.urbe.university/" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Catalog</a>
                 <a target="_blank" href="https://omeka.library.urbe.university" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Repository</a>
                 <a href="{{ route('databases') }}" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Databases</a>
                 <a href="{{ route('docs') }}" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Training &amp; Docs</a>

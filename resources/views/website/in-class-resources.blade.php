@@ -76,7 +76,7 @@
                     <a class="block p-2 hover:bg-gray-100 text-blue-500 hover:text-blue-800 rounded-lg" href="{{ route('home') }}" target="_blank" title="This link gives access to: URBE University library webpage, in this site the students can find the important resources such as: Library Catalog, Training Resources, Reference Service, APA information etc.">URBE University library website</a>
                 </li>
                 <li>
-                    <a class="block p-2 hover:bg-gray-100 text-blue-500 hover:text-blue-800 rounded-lg" href="http://catalog.urbe.university/" target="_blank" title="The Catalog of URBE University Library allows access to the bibliographic records of the resources that you can find into the library.">URBE University library catalog</a>
+                    <a class="block p-2 hover:bg-gray-100 text-blue-500 hover:text-blue-800 rounded-lg" href="http://koha.library.urbe.university/" target="_blank" title="The Catalog of URBE University Library allows access to the bibliographic records of the resources that you can find into the library.">URBE University library catalog</a>
                 </li>
                 <li>
                     <a class="block p-2 hover:bg-gray-100 text-blue-500 hover:text-blue-800 rounded-lg" href="https://omeka.library.urbe.university" target="_blank" title="This site includes different Communities and Collections with  electronic resources such as : Electronic Books, Articles,  Ebusiness Cases, Open Access Databases, etc. The students and instructors can use these resources for their courses.">URBE University digital repository</a>
