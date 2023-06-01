@@ -3,7 +3,7 @@
         <div class="flex items-center justify-between">
             <div class="">
                 <a href="/">
-                    <img src="{{ asset('urbe-library.png') }}" alt="URBE University" class="w-32">
+                    <img src="{{ asset('urbe-library.png') }}" alt="URBE University" class="w-44">
                 </a>
             </div>
             <div class="hidden md:flex items-center">
