@@ -15,7 +15,7 @@
                 </form>
             </div>
             <div class="col-span-2 md:col-span-1">
-                <img src="https://source.unsplash.com/featured/?book" alt="" class="w-full aspect-video md:aspect-square object-cover object-center rounded-xl md:rounded-full shadow-xl">
+                <img src="{{ asset('element5-digital-jCIMcOpFHig-unsplash.webp') }}" alt="Person holding books" class="w-full aspect-video md:aspect-square object-cover object-center rounded-xl shadow-xl">
             </div>
         </header>
 
@@ -75,5 +75,11 @@
         </main>
 
     </div>
+
+    <script>
+        import {createClient} from 'pexels';
+        const client = createClient('HVdqV1NKXv5hUXDh31yss6IXx5tZGeVtnhOOSDr1na4DgdboaFkq6kqw'); // This api key belongs to Elvis Blanco (eblanco@urbe.university)
+
+    </script>
     @include('website.footer')
 </x-guest-layout>
