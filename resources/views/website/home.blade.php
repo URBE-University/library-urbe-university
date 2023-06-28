@@ -9,7 +9,7 @@
                 <p></p>
                 <form action="http://koha.library.urbe.university/cgi-bin/koha/opac-search.pl" method="get" target="_blank">
                     <div class="mt-8">
-                        <input type="search" placeholder="Search the library catalog" name="q" class="border-gray-300 focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1">
+                        <input type="search" placeholder="Search our catalog" name="q" class="border-gray-300 focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 rounded-md shadow-sm mt-1">
                         <button type="submit" class="bg-[#01adeb] hover:bg-[#01adeb]/90 text-white rounded-md px-3 py-2 shadow-sm">Search</button>
                     </div>
                 </form>
