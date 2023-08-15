@@ -11,6 +11,7 @@
                 <a target="_blank" href="https://omeka.urbeuniversity.edu" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Repository</a>
                 <a href="https://omeka.urbeuniversity.edu/s/urbe/page/open-access-databases" target="_blank" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Databases</a>
                 <a href="{{ route('docs') }}" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Training &amp; Docs</a>
+                <a href="https://apastyle.apa.org/" target="_blank" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">APA</a>
                 <a href="{{ route('newsletters') }}" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">News</a>
                 <a href="https://outlook.office365.com/owa/calendar/LibraryInstructionBooking@urbe.university/bookings/" target="_blank" class="px-3 py-2 rounded-md text-sm leading-4 font-medium hover:bg-gray-50 hover:text-gray-700">Request Assistance</a>
             </div>
